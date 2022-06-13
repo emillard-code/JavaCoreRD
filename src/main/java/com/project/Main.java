@@ -10,6 +10,7 @@ public class Main {
 
     }
 
+    // A method that removes all instances of any character that appears more than once in a String.
     public static String removeDuplicates(String string) {
 
         StringBuilder duplicateChars = new StringBuilder();

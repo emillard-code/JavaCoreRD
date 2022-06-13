@@ -1,15 +1,15 @@
 package com.project;
 
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class MainTest {
 
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    void testRemoveSuccessiveDuplicates() {
+
+        Assertions.assertEquals("Pocsine", Main.removeDuplicates("Procrastinate"));
+
     }
 
 }
